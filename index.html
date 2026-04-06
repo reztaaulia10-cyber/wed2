@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Wedding of Cici & Yusri</title>
+    <link rel="icon" href="assets/img/icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Poppins:wght@100;400;600;700&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontawesome-free/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- hitung mundur -->
+    <link rel="stylesheet" href="assets/css/default.css">
+    <script src="assets/js/simplyCountdown.js"></script>
+    <script src="assets/js/simplyCountdown.umd.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <section id="hero" class="hero w-100 h-100 text-center d-flex justify-content-center align-items-center text-white">
+        <main>
+            <h1>The Wedding of</h1>
+            <h2>Cici Ramadhani</h2>
+            <h2>&</h2>
+            <h2>Yusri M. Nur</h2>
+            <p><b>Jum'at-Sabtu, 24-25 April 2026</b></p>
+            <div id="simply-countdown" class="simply-countdown"></div>
+
+            <a href="#dear" class="btn btn-lg" onclick="enableScroll()"><i class="fa-regular fa-envelope fa-beat"
+                    style="--fa-animation-duration: 1s;"></i> Lihat Undangan</a>
+        </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top navbaratas">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cici & Yusri</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar1" aria-controls="offcanvasNavbar1" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cici & Yusri</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <section class="dear" id="dear">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">Kepada: Yth.
+                        Bapak/Ibu/Saudara/i,
+                    </h2>
+                    <h2 class="tamu" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000"></h2>
+                    <p class="kata" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">Kami berharap
+                        bapak/ibu/saudara/i menjadi bagian di hari bahagia kami.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="home" class="home">
+        <div class="container" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2>بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h2>
+                    <h3>Assalamu'alaikum Warahmatullahi Wabarakatuh</h3>
+                    <p>Puji syukur atas kehadirat Allah SWT yang telah menciptakan makhlukNya berpasang-pasangan. Ya
+                        Allah,
+                        perkenankanlah dan Ridhoilah putra-putri kami :</p>
+                </div>
+            </div>
+            <div class="row avatar">
+                <div class="col-lg-6">
+                    <div class="row" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+                        <div class="col-8 text-end avatar1">
+                            <h3>Cici Ramadhani, S. Hum</h3>
+                            <p>Putri bungsu dari</p>
+                            <p>Bapak Masri Sadri (Alm) <br> & <br>Ibu Marlis.</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="assets/img/avatarcom2.jpg" alt="avatar2" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+                        <div class="col-4">
+                            <img src="assets/img/avatarcom.jpg" alt="avatar2" class="img-fluid">
+                        </div>
+                        <div class="col-8 avatar2">
+                            <h3>Yusri M. Nur, S. Pd</h3>
+                            <p>Putra ke-2 dari</p>
+                            <p>Bapak Drs. Maralis, M. Pd<br> & <br>Ibu Dra. Nurlah, M. Pd.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="quote" id="quote">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <p class="bismillah" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">بِسْمِ
+                            اللّٰهِ
+                            الرَّحْمٰنِ الرَّحِيْمِ</p>
+                        <p class="quran" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">وَمِنْ
+                            اٰيٰتِهٖٓ اَنْ
+                            خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ
+                            مَّوَدَّةً
+                            وَّرَحْمَةًۗ اِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّقَوْمٍ يَّتَفَكَّرُوْنَ۝٢١ </p>
+                        <p class="arti" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">Artinya:
+                        </p>
+                        <p class="terjemahan" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">"Di
+                            antara
+                            tanda-tanda (kebesaran)-Nya ialah bahwa Dia menciptakan pasangan-pasangan untukmu dari
+                            (jenis) dirimu
+                            sendiri agar kamu merasa tenteram kepadanya. Dia menjadikan di antaramu rasa cinta dan kasih
+                            sayang.
+                            Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi
+                            kaum yang
+                            berpikir." <br>(QS. Ar-Rum: 21)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="info" id="info">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="text-center">
+                    <span class="kata">Save the Date</span>
+                    <h2>Informasi Acara</h2>
+                    <p class="deskripsi">InsyaAllah, dengan niat menyempurnakan separuh agama, kami akan melaksanakan
+                        prosesi suci
+                        pernikahan pada:</p>
+                </div>
+                <div class="cards grid">
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="assets/img/gallery/IMG_2228.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h2 class="card-heading1">Akad Nikah</h2>
+                            <p class="card-text">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <span>Jum'at, 24 April 2026</span>
+                            </p>
+                            <p class="card-text">
+                                <i class="fa-regular fa-clock"></i>
+                                <span>14.00 - Selesai</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="assets/img/gallery/1c.jpeg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h2 class="card-heading">Resepsi Pernikahan</h2>
+                            <p class="card-text">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <span>Sabtu, 25 April 2026</span>
+                            </p>
+                            <p class="card-text">
+                                <i class="fa-regular fa-clock"></i>
+                                <span>10.00 - Selesai</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="text-center">
+                        <p class="deskripsi">Agar langkah Bapak/Ibu/Saudara/i menuju majelis pernikahan kami menjadi
+                            lebih mudah,
+                            silakan klik tombol
+                            panduan navigasi berikut:</p>
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.5633115712108!2d100.2596496749648!3d-0.6477999993458732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMzgnNTIuMSJTIDEwMMKwMTUnNDQuMCJF!5e0!3m2!1sid!2sid!4v1775471555449!5m2!1sid!2sid"
+                            width="85%" height="180" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        <p class="deskripsi"><i class="fa-solid fa-map-marker-alt"></i> Dusun Ringan-Ringan Nagari
+                            Pakandangan, Kecamatan Enam Lingkung, Kabupaten Padang Pariaman.</p>
+
+                        <a href=" https://maps.app.goo.gl/ka6DrEVToq2MSd3C6?g_st=iw" target="_blank"
+                            class="btn btn-light btn-lg my-3"><i class="fa-solid fa-location-dot fa-bounce"></i> Lihat
+                            di Google Maps</a>
+
+                        <p class="deskripsi">Suatu kehormatan dan kebahagiaan bagi kami jika Anda bersedia hadir untuk
+                            memberikan
+                            doa dan berkat, terimakasih.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Memory of Our Story</span>
+                    <h2>Gallery Photo</h2>
+                    <p>"Satu detik dalam bingkai, sejuta rasa dalam doa. Inilah momen-momen penuh syukur yang kami
+                        abadikan
+                        menjelang hari bahagia."</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-6 col-8">
+                    <div id="photoSlideshow" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active">
+                                <a href="assets/img/gallery/1.jpg" data-toggle="lightbox" data-gallery="gallery1"
+                                    data-caption="Memory of Our Story #1">
+                                    <img src="assets/img/gallery/1.jpg" class="d-block w-100" alt="Slideshow 1">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="assets/img/gallery/2.jpg" data-toggle="lightbox" data-gallery="gallery1"
+                                    data-caption="Memory of Our Story #2">
+                                    <img src="assets/img/gallery/2.jpg" class="d-block w-100" alt="Slideshow 2">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="assets/img/gallery/3.jpg" data-toggle="lightbox" data-gallery="gallery1"
+                                    data-caption="Memory of Our Story #3">
+                                    <img src="assets/img/gallery/3.jpg" class="d-block w-100" alt="Slideshow 3">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="assets/img/gallery/4.jpg" data-toggle="lightbox" data-gallery="gallery1"
+                                    data-caption="Memory of Our Story #4">
+                                    <img src="assets/img/gallery/4.jpg" class="d-block w-100" alt="Slideshow 4">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="assets/img/gallery/5.jpg" data-toggle="lightbox" data-gallery="gallery1"
+                                    data-caption="Memory of Our Story #5">
+                                    <img src="assets/img/gallery/5.jpg" class="d-block w-100" alt="Slideshow 5">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="assets/img/gallery/6.jpg" data-toggle="lightbox" data-gallery="gallery1"
+                                    data-caption="Memory of Our Story #6">
+                                    <img src="assets/img/gallery/6.jpg" class="d-block w-100" alt="Slideshow 6">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="assets/img/gallery/7.jpg" data-toggle="lightbox" data-gallery="gallery1"
+                                    data-caption="Memory of Our Story #7">
+                                    <img src="assets/img/gallery/7.jpg" class="d-block w-100" alt="Slideshow 7">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="assets/img/gallery/8.jpg" data-toggle="lightbox" data-gallery="gallery1"
+                                    data-caption="Memory of Our Story #8">
+                                    <img src="assets/img/gallery/8.jpg" class="d-block w-100" alt="Slideshow 8">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="assets/img/gallery/9.jpg" data-toggle="lightbox" data-gallery="gallery1"
+                                    data-caption="Memory of Our Story #9">
+                                    <img src="assets/img/gallery/9.jpg" class="d-block w-100" alt="Slideshow 9">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="assets/img/gallery/10.jpg" data-toggle="lightbox" data-gallery="gallery1"
+                                    data-caption="Memory of Our Story #10">
+                                    <img src="assets/img/gallery/10.jpg" class="d-block w-100" alt="Slideshow 10">
+                                </a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#photoSlideshow"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#photoSlideshow"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center hadiah">
+                <div class="col-lg-6 text-center">
+                    <button type="button" class="text-center btn btn-lg mb-4 rounded-pill" data-bs-toggle="collapse"
+                        data-bs-target="#collapseGallery" aria-expanded="false" aria-controls="collapseExample">
+                        <i class="fas fa-fw fa-images"></i> Lihat Gallery Lainnya
+                    </button>
+                    <div class="collapse" id="collapseGallery">
+                        <div class="row justify-content-center mb-5">
+                            <div class="col-md-8 col-10 text-center">
+                                <div class="gallery-intro" data-aos="fade-up" data-aos-easing="linear"
+                                    data-aos-duration="1000">
+                                    <p style="font-size: 1.1rem; color: #666;">Click on any photo to see more beautiful
+                                        moments.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-2 justify-content-center">
+                            <div class="col mt-3">
+                                <a href="assets/img/gallery/11.jpg" data-toggle="lightbox" data-gallery="gallery1"
+                                    data-caption="Memory of Our Story">
+                                    <img src="assets/img/gallery/11.jpg" alt="gallery" img
+                                        class="img-fluid w-100 rounded">
+                                </a>
+                            </div>
+                            <div class="col mt-3">
+                                <a href="assets/img/gallery/20.jpg" data-toggle="lightbox" data-gallery="gallery10"
+                                    data-caption="Memory of Our Story">
+                                    <img src="assets/img/gallery/20.jpg" alt="gallery10" img
+                                        class="img-fluid w-100 rounded">
+                                </a>
+                            </div>
+                            <div class="col mt-3">
+                                <a href="assets/img/gallery/12.jpg" data-toggle="lightbox" data-gallery="gallery2"
+                                    data-caption="Memory of Our Story">
+                                    <img src="assets/img/gallery/12.jpg" alt="gallery2" img
+                                        class="img-fluid w-100 rounded">
+                                </a>
+                            </div>
+                            <div class="col mt-3">
+                                <a href="assets/img/gallery/15.jpg" data-toggle="lightbox" data-gallery="gallery5"
+                                    data-caption="Memory of Our Story">
+                                    <img src="assets/img/gallery/15.jpg" alt="gallery5" img
+                                        class="img-fluid w-100 rounded">
+                                </a>
+                            </div>
+                            <div class="col mt-3">
+                                <a href="assets/img/gallery/14.jpg" data-toggle="lightbox" data-gallery="gallery4"
+                                    data-caption="Memory of Our Story">
+                                    <img src="assets/img/gallery/14.jpg" alt="gallery4" img
+                                        class="img-fluid w-100 rounded">
+                                </a>
+                            </div>
+                            <div class="col mt-3">
+                                <a href="assets/img/gallery/13.jpg" data-toggle="lightbox" data-gallery="gallery3"
+                                    data-caption="Memory of Our Story">
+                                    <img src="assets/img/gallery/13.jpg" alt="gallery3" img
+                                        class="img-fluid w-100 rounded">
+                                </a>
+                            </div>
+                            <div class="col mt-3">
+                                <a href="assets/img/gallery/19.jpg" data-toggle="lightbox" data-gallery="gallery9"
+                                    data-caption="Memory of Our Story">
+                                    <img src="assets/img/gallery/19.jpg" alt="gallery9" img
+                                        class="img-fluid w-100 rounded">
+                                </a>
+                            </div>
+                            <div class="col mt-3">
+                                <a href="assets/img/gallery/17.jpg" data-toggle="lightbox" data-gallery="gallery7"
+                                    data-caption="Memory of Our Story">
+                                    <img src="assets/img/gallery/17.jpg" alt="gallery7" img
+                                        class="img-fluid w-100 rounded">
+                                </a>
+                            </div>
+                            <div class="col mt-3">
+                                <a href="assets/img/gallery/16.jpg" data-toggle="lightbox" data-gallery="gallery6"
+                                    data-caption="Memory of Our Story">
+                                    <img src="assets/img/gallery/16.jpg" alt="gallery6" img
+                                        class="img-fluid w-100 rounded">
+                                </a>
+                            </div>
+
+                            <div class="col mt-3">
+                                <a href="assets/img/gallery/18.jpg" data-toggle="lightbox" data-gallery="gallery8"
+                                    data-caption="Memory of Our Story">
+                                    <img src="assets/img/gallery/18.jpg" alt="gallery8" img
+                                        class="img-fluid w-100 rounded">
+                                </a>
+                            </div>
+                        </div>
+                        <button type="button" class="text-center btn btn-lg mt-4 rounded-pill" data-bs-toggle="collapse"
+                            data-bs-target="#collapseGallery" aria-expanded="false" aria-controls="collapseExample">
+                            <i class="fas fa-solid fa-circle-xmark"></i> Tutup Gallery
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="konfirmasi" id="konfirmasi">
+        <div class="container1">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span class="kata">Reservation</span>
+                    <h2>Konfirmasi Kehadiran</h2>
+                    <p class="deskripsi1">Kehadiran Anda sangat berarti bagi kami. Mohon kesediaan Bapak/Ibu/Saudara/i
+                        untuk
+                        memberikan konfirmasi
+                        kehadiran melalui formulir di bawah ini.</p>
+                </div>
+                <div class="container1">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-count" id="count-hadir">0</div>
+                            <div class="stat-label">Hadir</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-count" id="count-tidak">0</div>
+                            <div class="stat-label">Tidak Hadir</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-count" id="count-ragu">0</div>
+                            <div class="stat-label">Masih Ragu</div>
+                        </div>
+                    </div>
+
+                    <form id="guestbook-form" class="comment-form" method="post"
+                        action="https://script.google.com/macros/s/AKfycbzr0YRn6Pyzrn4PJvo4eA5R-lvP-6KP-EQvLomxiz-wSAOChWUf9uhIVBTl53zR1eH1/exec">
+                        <input type="text" id="nama" name="nama" class="form-control" placeholder="Nama" required>
+                        <textarea id="ucapan" name="ucapan" placeholder="Ucapan" rows="3" required></textarea>
+                        <select id="status" name="status" class="form-select" required>
+                            <option value="" disabled selected>Konfirmasi Kehadiran</option>
+                            <option value="Hadir">Hadir</option>
+                            <option value="Tidak Hadir">Tidak Hadir</option>
+                            <option value="Masih Ragu">Masih Ragu</option>
+                        </select>
+                        <button type="submit" class="btn-submit">Kirim</button>
+                    </form>
+
+                    <h3 class="header-title"><span id="total-comments">0</span> Comments</h3>
+                    <hr class="separator" />
+                    <div id="comment-container1"></div>
+                    <div class="pagination-wrapper" id="pagination-nav">
+                        <button class="btn-page" id="prev-btn">Sebelumnya</button>
+                        <span id="page-indicator">Halaman 1</span>
+                        <button class="btn-page" id="next-btn">Selanjutnya</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gifts" class="gifts">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Expression of Love</span>
+                    <h2>Gifts</h2>
+                    <p>"Terima kasih atas doa dan berkah yang telah Anda berikan kepada kami. Semoga Allah SWT membalas
+                        semua
+                        kebaikan Anda."</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center hadiah">
+                <div class="col-lg-6 text-center">
+                    <button type="button" class="text-center btn btn-lg mb-4 rounded-pill" data-bs-toggle="collapse"
+                        data-bs-target="#collapseGift" aria-expanded="false" aria-controls="collapseExample">
+                        <i class="fas fa-fw fa-gift fa-shake"></i> Kirim Hadiah
+                    </button>
+                    <div class="collapse" id="collapseGift">
+                        <div class="my-4 mx-auto position-relative credit-card">
+                            <img src="assets/img/logo/bca.png" alt="Logo BCA" class="card-logo">
+                            <div class="card-container">
+                                <img src="assets/img/logo/sim.png" alt="sim" class="card-sim">
+                                <div class="card-number">0030996305</div>
+                            </div>
+                            <div class="card-name mt-2">A/N. Yusri M. Nur</div>
+                            <a style="cursor: pointer;" onclick="copyText(this)" class="copy-button btn btn-light mt-3">
+                                <i class="fas fa-fw fa-copy"></i>Copy
+                            </a>
+                        </div>
+                        <div class="my-4 mx-auto position-relative credit-card">
+                            <img src="assets/img/logo/dana.png" alt="Logo DANA" class="card-logo2">
+                            <div class="card-container">
+                                <img src="assets/img/logo/sim.png" alt="sim" class="card-sim">
+                                <div class="card-number">082170733649</div>
+                            </div>
+                            <div class="card-name mt-2">A/N. Yusri M. Nur</div>
+                            <a style="cursor: pointer;" onclick="copyText(this)" class="copy-button btn btn-light mt-3">
+                                <i class="fas fa-fw fa-copy"></i>Copy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="undang" id="undang">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2 class="hormat">Hormat Kami Yang Berbahagia</h2>
+                    <span class="keluarga">Keluarga Besar:</span>
+                    <p class="parent">Bapak Drs. Maralis, M. Pd</p>
+                    <p class="parent">Ibu Dra. Nurlah, M. Pd</p>
+                    <h2 class="mengundang">Turut Mengundang</h2>
+                    <table class="table-nama justify-content-center align-items-center">
+                        <tr>
+                            <td align="left">Yusra. M Nur S. Pd</td>
+                            <td></td>
+                            <td align="right">Rizani, S. Pd / Raffi Eri Kukasih</td>
+                        </tr>
+                        <tr>
+                            <td align="left">Ilham. M Nur S.T</td>
+                            <td></td>
+                            <td align="right">Fanesha Alfaneli S.E / Sandy Kusuma</td>
+                        </tr>
+                        <tr>
+                            <td align="left">Aulia Sakinah</td>
+                            <td></td>
+                            <td align="right">Yulidarnis / M. Yusup</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td align="right">Rosmafanelis / Agus</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="penutup" class="penutup text-center d-flex justify-content-center align-items-center text-white">
+        <div class="container" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h1>Wassalamu'alaikum</h1>
+                    <p>"Kami bersyukur kepada Allah SWT yang telah memberkati dan mempersatukan kami. Kami juga
+                        berterima kasih
+                        atas do'a dan berkah yang telah Anda berikan kepada kami. Semoga Allah SWT membalas semua
+                        kebaikan Anda."
+                    </p>
+                    <h5>Kami yang berbahagia</h5>
+                    <h2 class="tanda-tangan">Cici & Yusri</h2>
+                    <h5>Terima kasih atas Do'a dan kehadirannya.</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <small class="block">&copy; 2026 Cici&Yusri Wedding. All Rights Reserved.</small>
+                    <small class="block">Created & Developed with <i class="fa-solid fa-heart"></i> by <a
+                            href="https://www.instagram.com/muhamadrizky6__/" target="_blank">@MuhamadRizky</a>.</small>
+                    <ul class="mt-3">
+                        <li><a href="https://github.com/MuhamadRizky6" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.instagram.com/muhamadrizky6__/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://muhamadrizky-portfolio.vercel.app/" target="_blank"><i
+                                    class="fa-solid fa-laptop-code"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="audio-container">
+        <audio id="bg" autoplay loop>
+            <source src="assets/bg/bgmusic.mp3" type="audio/mp3">
+        </audio>
+        <div class="audio-icon-wrapper" style="display: none;">
+            <i class="fa-solid fa-compact-disc"></i>
+        </div>
+    </div>
+
+    <section class="navbar-bottom">
+        <div class="navigation" id="bottom">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#home"><span>Home</span><i class="fa-solid fa-house"></i></a></li>
+                        <li><a href="#info"><span>Info</span><i class="fa-solid fa-circle-info"></i></a></li>
+                        <li><a href="#gallery"><span>Gallery</span><i class="fa-solid fa-images"></i></a></li>
+                        <li><a href="#konfirmasi"><span>RSVP</span><i class="fa-solid fa-calendar-check"></i></a></li>
+                        <li><a href="#gifts"><span>Gifts</span><i class="fa-solid fa-gift"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js"
+        integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.26.18/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        // Konfigurasi Sistem
+        const limitPerPage = 3;
+        let activePage = 1;
+
+        // Database Lokal (Ambil dari browser atau mulai baru)
+        let guestsData = JSON.parse(localStorage.getItem('wedding_guests')) || [];
+        let counterStats = JSON.parse(localStorage.getItem('wedding_stats')) || {
+            'Hadir': 0, 'Tidak Hadir': 0, 'Masih Ragu': 0, 'Total': 0
+        };
+
+        const formEl = document.getElementById('guestbook-form');
+        const listEl = document.getElementById('comment-container1');
+
+        // Fungsi Utama Jalankan Tampilan
+        function refreshView() {
+            updateCounters();
+            renderComments();
+            updatePaginationNav();
+
+        }
+
+        // Handler Kirim Form
+        formEl.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const nama = document.getElementById('nama').value;
+            const pesan = document.getElementById('ucapan').value;
+            const status = document.getElementById('status').value;
+
+            const data = new FormData(formEl);
+            const action = e.target.action;
+            fetch(action, {
+                method: 'POST',
+                body: data,
+            })
+
+            // Membuat Timestamp (Tanggal & Jam)
+            const now = new Date();
+            const dateStr = now.toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
+            const timeStr = now.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' });
+            const fullTimestamp = `${dateStr}, ${timeStr} WIB`;
+
+            const newGuest = {
+                nama,
+                pesan,
+                status,
+                waktu: fullTimestamp
+            };
+
+            // Simpan ke array dan update stats
+            guestsData.push(newGuest);
+            counterStats[status]++;
+            counterStats['Total']++;
+
+            // Simpan Permanen ke LocalStorage
+            localStorage.setItem('wedding_guests', JSON.stringify(guestsData));
+            localStorage.setItem('wedding_stats', JSON.stringify(counterStats));
+
+            activePage = 1; // Kembali ke halaman 1 agar pesan terbaru terlihat
+            refreshView();
+            formEl.reset();
+        });
+
+        // Fungsi Menampilkan List Komentar
+        function renderComments() {
+            listEl.innerHTML = '';
+
+            // Urutkan dari yang paling baru
+            const newestFirst = [...guestsData].reverse();
+
+            // Hitung Slice Data untuk Pagination
+            const startIdx = (activePage - 1) * limitPerPage;
+            const endIdx = startIdx + limitPerPage;
+            const displayList = newestFirst.slice(startIdx, endIdx);
+
+            if (displayList.length === 0) {
+                listEl.innerHTML = "<p style='text-align:center; opacity:0.6;'>Belum ada ucapan tersimpan.</p>";
+                return;
+            }
+
+            displayList.forEach(guest => {
+                const card = document.createElement('div');
+                card.className = 'comment-card';
+                card.innerHTML = `
+            <div class="avatar-circle">💬</div>
+            <div class="comment-content">
+                <div class="user-title">${guest.nama} <span class="check-mark">✔</span></div>
+                <p class="comment-text">${guest.pesan}</p>
+                <div class="comment-meta">${guest.waktu} · <a href="#" style="color:#5bc0de; text-decoration:none;">Reply</a></div>
+            </div>
+        `;
+                listEl.appendChild(card);
+            });
+        }
+
+        // Fungsi Update Statistik di UI
+        function updateCounters() {
+            document.getElementById('count-hadir').innerText = counterStats['Hadir'];
+            document.getElementById('count-tidak').innerText = counterStats['Tidak Hadir'];
+            document.getElementById('count-ragu').innerText = counterStats['Masih Ragu'];
+            document.getElementById('total-comments').innerText = counterStats['Total'];
+        }
+
+        // Navigasi Pagination
+        function updatePaginationNav() {
+            const totalPages = Math.ceil(guestsData.length / limitPerPage);
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const indicator = document.getElementById('page-info');
+
+            document.getElementById('page-indicator').innerText = `Halaman ${activePage} dari ${totalPages || 1}`;
+
+            prevBtn.disabled = (activePage === 1);
+            nextBtn.disabled = (activePage === totalPages || totalPages === 0);
+        }
+
+        document.getElementById('prev-btn').onclick = () => { if (activePage > 1) { activePage--; refreshView(); } };
+        document.getElementById('next-btn').onclick = () => {
+            const totalPages = Math.ceil(guestsData.length / limitPerPage);
+            if (activePage < totalPages) { activePage++; refreshView(); }
+        };
+
+        // Start Apps
+        refreshView();
+    </script>
+
+    <script>
+        simplyCountdown("#simply-countdown", {
+            year: 2026,
+            month: 4,
+            day: 24,
+            hours: 14, // Target hour [0-23], default: 0
+            minutes: 0, // Target minute [0-59], default: 0
+            seconds: 0, // Target second [0-59], default: 0
+        });
+    </script>
+
+    <script>
+        const stickyTop = document.querySelector('.sticky-top');
+        const offcanvas = document.querySelector('.offcanvas');
+
+        offcanvas.addEventListener('show.bs.offcanvas', function () {
+            stickyTop.style.overflow = 'visible';
+        });
+
+        offcanvas.addEventListener('hidden.bs.offcanvas', function () {
+            stickyTop.style.overflow = 'hidden';
+        });
+    </script>
+
+    <script>
+        const rootElement = document.querySelector(":root");
+        const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
+        const BottomNav = document.querySelector('.navbar-bottom');
+        const trigger = document.querySelectorAll('.navbar-bottom nav li');
+        const audio = document.querySelector('#bg');
+        let isPlaying = false;
+
+        function disableScroll() {
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+            window.onscroll = function () {
+                window.scrollTo(scrollTop, scrollLeft);
+            };
+
+            rootElement.style.scrollBehavior = 'auto';
+        }
+
+        function enableScroll() {
+            window.onscroll = function () { };
+            rootElement.style.scrollBehavior = 'smooth';
+            // localStorage.setItem('opened', 'true');
+            playAudio();
+        }
+
+        function playAudio() {
+            audio.volume = 1;
+            audioIconWrapper.style.display = 'flex';
+            BottomNav.style.display = 'flex';
+
+            audio.currentTime = 49;
+
+            audio.play();
+            isPlaying = true;
+        }
+
+
+        trigger.forEach((menu) =>
+            menu.addEventListener('click', toggle));
+
+        function toggle() {
+            trigger.forEach((item) => item != this ? item.classList.remove('active') : null);
+
+            if (this.classList != 'active') {
+                this.classList.toggle('active');
+            }
+        }
+
+        audioIconWrapper.addEventListener('click', function () {
+            if (isPlaying) {
+                audio.pause();
+                // isPlaying = false;
+                audioIconWrapper.innerHTML = '<i class="fa-solid fa-circle-pause"></i>';
+            } else {
+                audio.play();
+                // isPlaying = true;
+                audioIconWrapper.innerHTML = '<i class="fa-solid fa-compact-disc"></i>';
+            }
+
+            isPlaying = !isPlaying;
+        });
+
+        // if (!localStorage.getItem('opened')) {
+        //   disableScroll();
+        // }
+
+        disableScroll();
+
+    </script>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const nama = urlParams.get('to');
+        const partner = urlParams.get('with');
+
+        const namaElement = document.querySelector('.dear .tamu');
+        namaElement.innerText = `${nama}\n & \n${partner}`;
+
+        document.querySelector('#nama').value = nama;
+        document.querySelector('#partner').value = partner;
+    </script>
+
+    <script>
+        function copyText(element) {
+            var content = jQuery(element).siblings('div.card-container').find('div.card-number').text().trim();
+            var temp = document.createElement("textarea");
+
+            document.body.appendChild(temp);
+            temp.value = content.replace(/\s+/g, '');
+            temp.select();
+            document.execCommand("copy");
+            document.body.removeChild(temp);
+
+            jQuery(element).text('Berhasil di Copy!');
+
+            setTimeout(function () {
+                jQuery(element).html('<i class="fas fa-regular fa-copy"></i> Copy');
+            }, 2000);
+        }
+    </script>
+</body>
+
+</html>
