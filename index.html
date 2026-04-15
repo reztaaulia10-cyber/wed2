@@ -193,17 +193,23 @@
                             silakan klik tombol
                             panduan navigasi berikut:</p>
 
+                            <p class="deskripsi"> Untuk Akad Nikah akan dilaksanakan di Kediaman mempelai Wanita:</p>
+                        <p class="deskripsi"><i class="fa-solid fa-map-marker-alt"></i> <b>Kampung Panyalai Lubuk Pandan, Kecamatan 2x11 Enam Lingkung, Kabupaten Padang Pariaman.</b> </p>
+                        <a href=" https://maps.app.goo.gl/ka6DrEVToq2MSd3C6?g_st=iw" target="_blank"
+                            class="btn btn-light btn-lg my-3"><i class="fa-solid fa-location-dot fa-bounce"></i> Lokasi Akad</a>
+
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.5633115712108!2d100.2596496749648!3d-0.6477999993458732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMzgnNTIuMSJTIDEwMMKwMTUnNDQuMCJF!5e0!3m2!1sid!2sid!4v1775471555449!5m2!1sid!2sid"
                             width="85%" height="180" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                        <p class="deskripsi"><i class="fa-solid fa-map-marker-alt"></i> Dusun Ringan-Ringan Nagari
-                            Pakandangan, Kecamatan Enam Lingkung, Kabupaten Padang Pariaman.</p>
+                        
+                        <p class="deskripsi"> Untuk Resepsi Pernikahan akan dilaksanakan di Kediaman mempelai Pria:</p>
+                        <p class="deskripsi"><i class="fa-solid fa-map-marker-alt"></i><b> Dusun Ringan-Ringan Nagari
+                            Pakandangan, Kecamatan Enam Lingkung, Kabupaten Padang Pariaman.</b></p>
 
                         <a href=" https://maps.app.goo.gl/ka6DrEVToq2MSd3C6?g_st=iw" target="_blank"
-                            class="btn btn-light btn-lg my-3"><i class="fa-solid fa-location-dot fa-bounce"></i> Lihat
-                            di Google Maps</a>
+                            class="btn btn-light btn-lg my-3"><i class="fa-solid fa-location-dot fa-bounce"></i> Lokasi Resepsi</a>
 
                         <p class="deskripsi">Suatu kehormatan dan kebahagiaan bagi kami jika Anda bersedia hadir untuk
                             memberikan
@@ -846,16 +852,28 @@
     </script>
 
     <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const nama = urlParams.get('to');
-        const partner = urlParams.get('with');
+    const urlParams = new URLSearchParams(window.location.search);
+    const nama = urlParams.get('to') || '';
+    const partner = urlParams.get('with') || '';
 
-        const namaElement = document.querySelector('.dear .tamu');
+    const SectionDear = document.querySelector('.dear');
+    const namaElement = document.querySelector('.dear .tamu');
+
+    if (nama && partner) {
+        // Jika keduanya ada: Nama & Partner
         namaElement.innerText = `${nama}\n & \n${partner}`;
+    } else if (nama || partner) {
+        // Jika hanya salah satu yang ada (tidak perlu pakai &)
+        namaElement.innerText = nama || partner;
+    } else {
+        // Jika tidak ada parameter, sembunyikan section
+        SectionDear.style.display = 'none';
+        window.location.hash = '#home'; // Redirect ke bagian home jika tidak ada parameter
+    }
 
-        document.querySelector('#nama').value = nama;
-        document.querySelector('#partner').value = partner;
-    </script>
+    document.querySelector('#nama').value = nama;
+    document.querySelector('#partner').value = partner;
+  </script>
 
     <script>
         function copyText(element) {
